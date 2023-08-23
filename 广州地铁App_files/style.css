@@ -1,0 +1,86 @@
+/* RESET */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video { border: 0; font: inherit; font-size: 100%; margin: 0; outline: 0; padding: 0; vertical-align: baseline; }
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section { display: block; }
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after,
+q:before, q:after { content: ''; content: none; }
+ins { text-decoration: none; }
+del { text-decoration: line-through; }
+table { border-collapse: collapse; border-spacing: 0; }
+
+/* BASIC */
+body, button, input, select, textarea { font: 14px/1.5 "Lucida Grande", "Lucida Sans Unicode", "Helvetica neue", helvetica, arial, 'Hiragino sans gb', STHeiti, \5FAE\8F6F\96C5\9ED1; color: #333; }
+a:link, a:visited { color: #454545; text-decoration: none; }
+a:hover { color: #AF1515; text-decoration: underline; }
+a:active { color: #111; text-decoration: underline; }
+
+/* MAIN */
+body { background-color: #F4F4F5; }
+
+/* HEADER */
+.header { width: 100%; height: 720px; position: relative; background: url(../images/header-bottom-bg.png) repeat #EDEDEE; border-bottom: 1px solid #C0C0C0; }
+.header-img { width: 100%; height: 480px; background: url(../images/bg-img.jpg) top center no-repeat #140405; border-bottom: 1px solid #C9CCCF; }
+.header-body { width: 1004px; height: 720px; position: absolute; z-index: 1; left: 50%; top: 0; margin-left: -502px; }
+.logo { width: 316px; height: 140px; display: block; position: absolute; left: 0; top: 166px; }
+.banner { width: 534px; height: 696px; display: block; position: absolute; right: 0; top: 24px; }
+.header-download { width: 370px; height: 240px; position: absolute; left: 0; bottom: 0; }
+.download { width: 370px; height: 144px; position: absolute; left: 0; top: 50%; margin-top: -72px; }
+.download-btns-wrapper { width: 204px; height: 128px; float: left; }
+.download-btn { width: 204px; height: 60px; display: block; float: left; margin-top: 8px; background: url(../images/download-btns.png) no-repeat; }
+.download-btn-iphone { background-position: 0 0; }
+.download-btn-android { background-position: 0 -62px; }
+.download-qrcode-wrapper { width: 144px; height: 144px; float: right; position: relative; background: url(../images/download-qrcode-wrapper.png) no-repeat; }
+.qrcode { width: 120px; height: 120px; position: absolute; left: 50%; top: 50%; margin-left: -60px; margin-top: -60px; }
+
+/* VIDEO */
+.video { width: 100%; height: 620px; position: relative; background: url(../images/video-wrapper-gradients.jpg) left top repeat-x #E0E0E0; }
+.video-inner { width: 1004px; height: 540px; position: absolute; left: 50%; top: 50%; margin-left: -502px; margin-top: -270px; background: url(../images/video.png) no-repeat; }
+.video-player { width: 1000px; height: 480px; position: absolute; left: 50%; top: 50%; margin-left: -500px; margin-top: -240px; background-color: #F7F7F7; }
+
+/* FEATURES */
+.feature-list { width: 100%; height: 712px; background-position: top center; background-repeat: no-repeat; }
+.feature-list-1 { background-image: url(../images/features-1.jpg); }
+.feature-list-2 { background-image: url(../images/features-2.jpg); }
+.feature-list-3 { background-image: url(../images/features-3.jpg); }
+
+/* FOOTER DOWNLOAD */
+.footer-download { width: 100%; height: 220px; background: url(../images/bg-img.jpg) center center no-repeat #140405; border-bottom: 1px solid #C9CCCF; }
+.footer-download-inner { width: 1004px; height: 220px; position: relative; margin: 0 auto; }
+.footer-download-text { float: right; margin-top: 45px; }
+
+/* FOOTER */
+.footer { width: 100%; height: 244px; position: relative; background-color: #FCFCFC; }
+.footer-inner { width: 1004px; height: 40px; position: absolute; left: 50%; top: 50%; margin-left: -502px; margin-top: -20px; }
+.footer-info-wrapper { width: 600px; height: 40px; float: left; }
+.footer-logo { width: 36px; height: 40px; float: left; }
+.footer-text-wrapper { width: 560px; height: 40px; float: left; margin-left: 4px; }
+.footer-p-separation { color: #BBB; }
+.footer-weibo { width: 298px; height: 40px; float: right; display: block; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
